@@ -1,0 +1,164 @@
+body {
+  font-family: 'Roboto Condensed', helvetica, arial, sans-serif;
+  background-color: #FFFFFF;
+  color: #121212;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 5%;
+}
+
+
+h1 {
+	font-size: 1.8em;
+	color: #121212;
+	font-family: 'Roboto Condensed', helvetica, arial, sans-serif;
+	font-weight: 700;
+}
+
+h2 {
+	font-size: .8em;
+	line-height: 1.5;
+	color: #666;
+	font-family: helvetica, arial, sans-serif;
+	font-weight: 400;
+}
+
+.goal {
+	display: inline-block;
+}
+
+.widget-container {
+	background-color: white;
+	width: 420px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #ddd;
+	padding: 20px;
+}
+
+.first-block {
+	padding: 10px;
+	line-height: 1.3;
+}
+
+
+.stats {
+	margin-top: 12px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.fundraiser-section {
+	padding: 10px;
+}
+
+.donation-section {
+	padding: 10px;
+}
+
+.progress-meter-container {
+	height: 6px;
+}
+
+.progress-meter {
+	display: block;
+	position: relative;
+	width: 69%;
+	border-top: 2px solid #2800D7;
+    border-bottom: 2px solid #2800D7;
+    border-radius: 2px;
+	margin: 24px 0 4px;
+}
+
+.goal h3 {
+	font-weight: 700;
+}
+
+#subhead {
+	font-weight: 400;
+}
+
+.fundraiser {
+	display: inline-block;
+	width: 98px;
+	height: 98px;
+	-webkit-box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.1);
+	-moz-box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.1);
+	box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.1);
+    border-radius: 1px;
+	padding: 10px 14px;
+	text-align: center;
+	margin-right: 4px;
+	margin-top: 10px;
+}
+
+.fundraiser img {
+	background-color: #dedede;
+    border-radius: 50%;
+    display: inline-block;
+    height: 64px;
+    min-width: 64px;
+}
+
+.fund-name {
+
+}
+
+.fund-amount {
+	margin-bottom: 10px;
+	font-size: .8em;
+}
+
+.donor {
+	margin-bottom: 10px;
+    height: 20px;
+    padding: 10px;
+    -webkit-box-shadow: 0px 1px 0px 0px rgba(0,0,0,0.1);
+	-moz-box-shadow: 0px 1px 0px 0px rgba(0,0,0,0.1);
+	box-shadow: 0px 1px 0px 0px rgba(0,0,0,0.1);
+}
+
+.section-title {
+	text-align: center;
+	font-size: .8em;
+	text-transform: uppercase;
+}
+
+.donor-name {
+	float: left;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+.donor-amount {
+	float: right;
+}
+
+.cta {
+	text-align: center;
+}
+
+.cta-button {
+	background-color: white;
+    width: 200px;
+    height: 48px;
+    border-radius: 28px;
+    border: 2px solid #2800D7;
+    color: #2800D7;
+    font-family: 'Roboto Condensed';
+    font-weight: 700;
+}
+
+button {
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #2800D7;
+    color: white;
+    transition: background-color .25s ease;
+}
+
+.clearfix {
+	clear: both;
+}
